@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.pousse-cafe-framework</groupId>
+        <artifactId>pousse-cafe</artifactId>
+        <version>0.11.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>pousse-cafe-elastic-apm</artifactId>
+    <name>Pousse-Café - Elastic APM</name>
+    <version>0.1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.pousse-cafe-framework</groupId>
+            <artifactId>pousse-cafe-core</artifactId>
+            <version>0.11.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>co.elastic.apm</groupId>
+            <artifactId>apm-agent-api</artifactId>
+            <version>1.10.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <scm>
+        <connection>scm:git:https://github.com/pousse-cafe/pousse-cafe-elastic-apm.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/pousse-cafe/pousse-cafe-elastic-apm.git</developerConnection>
+        <url>http://github.com/pousse-cafe/pousse-cafe-elastic-apm</url>
+    </scm>
+</project>
