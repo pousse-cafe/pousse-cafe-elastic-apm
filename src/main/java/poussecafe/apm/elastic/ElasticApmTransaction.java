@@ -28,4 +28,9 @@ public class ElasticApmTransaction implements ApmTransaction {
     public void setResult(String result) {
         transaction.setResult(result);
     }
+
+    @Override
+    public void addLabel(String key, String value) {
+        transaction.addLabel(key, value);
+    }
 }
